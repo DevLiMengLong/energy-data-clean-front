@@ -1,5 +1,5 @@
 {
-  "name": "@energy-platform/data-cleaning",
+  "name": "energy-data-clean-front",
   "version": "0.1.0",
   "private": true,
   "type": "module",
