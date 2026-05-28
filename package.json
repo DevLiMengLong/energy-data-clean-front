@@ -1,0 +1,29 @@
+{
+  "name": "@energy-platform/data-cleaning",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevLiMengLong/energy-data-clean-front.git"
+  },
+  "exports": {
+    "./micro": "./src/micro.ts"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5176",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4176"
+  },
+  "dependencies": {
+    "lucide-vue-next": "0.468.0",
+    "vue": "3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@vitejs/plugin-vue": "5.2.1",
+    "typescript": "5.7.2",
+    "vite": "6.4.2",
+    "vue-tsc": "2.1.10"
+  }
+}
